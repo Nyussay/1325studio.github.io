@@ -52,8 +52,26 @@
         <footer> 
             <span class="right"> Все права защищены &copy;2019 </span>
         </footer>    
-        <script src='/js/jquery-3.4.1.js'></script>
-        <script src='/js/js.js'></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script>
+		$(function(){
+// Services page
+
+
+    $('#slideOne').on('click', function(){
+        $('#hideOne').slideToggle(200).text('(дизайн макета, верстка, публикация на ваш хостинг)');
+    }); 
+    $('#slideTwo').on('click', function(){
+        $('#hideTwo').slideToggle(200).text('3 варианта');
+    }); 
+    $('#slideThree').on('click', function(){
+        $('#hideThree').slideToggle(200).text('(от 5 шт.)');
+    }); 
+    $('#slideFour').on('click', function(){
+        $('#hideFour').slideToggle(200).text('...');
+    });  
+})
+	</script>
     </body>
 
 </html>
