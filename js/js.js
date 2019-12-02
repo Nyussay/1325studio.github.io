@@ -7,8 +7,7 @@ var greeting;
     else if (hourNow<21) {greeting='Добрый вечер!'};
     else if (hourNow<03) {greeting='Доброе ночи!'};
     else {greeting='Добро пожаловать!'};
-
-document.write(greeting);
+    alert(greeting);
 
 
 $(function(){
