@@ -2,13 +2,18 @@ var today = new Date();
 var hourNow = today.getHours(); 
 var greeting;
 
-    if (hourNow<12) {greeting='Доброе утро!'};
-    else if (hourNow<16) {greeting='Добрый день!'};
-    else if (hourNow<21) {greeting='Добрый вечер!'};
-    else if (hourNow<03) {greeting='Доброе ночи!'};
-    else {greeting='Добро пожаловать!'};
-    alert(greeting);
+    if (hourNow>21) {
+        greeting='Доброй ночи!';
+    }
+    else if (hourNow>16) {greeting='Добрый вечер!';
+}
+    else if (hourNow>12) {greeting='Добрый день!';
+}
+    else if (hourNow>4) {greeting='Доброе утро!';}
+    else {greeting='Добро пожаловать!';
+}
 
+alert(greeting);
 
 $(function(){
 
