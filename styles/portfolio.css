@@ -59,11 +59,12 @@ nav {
     float: left;
     text-align: center;
     width: 50%;
-    margin-left: 320px;
+    margin-left: 120px;
     margin-top: 50px;
 }
 #page img {
     margin-top: 100px;
+    margin-left: 10px;
 }
 
 #page p {
